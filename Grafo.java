@@ -41,10 +41,6 @@ public class Grafo{
 	}
 
 	//ok
-	public void finalVertices(Vertice v){
-	}
-
-	//ok
 	public void oposto(Vertice v, Aresta a){
 		if (a.getV1() == v){
 			System.out.println(a.getV2().getValor());
